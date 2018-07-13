@@ -1,0 +1,141 @@
+{
+  //git以及打开浏览器配置
+  "git.path": "D:/Development/Git/Git/cmd/git.exe",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "view-in-browser.customBrowser": "chrome",
+  "workbench.colorTheme": "Visual Studio Light",
+  "git.confirmSync": false,
+  //eslint配置
+  "eslint.autoFixOnSave": true,
+  "files.autoSave": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "md"
+  ],
+  "eslint.options": {
+    "plugins": ["html"]
+
+  },
+  //为了符合eslint的两个空格间隔原则
+  "editor.tabSize": 2,
+  //markdown配置
+  // 设置换行符如何在 markdown 预览中呈现。将其设置为 "true" 会为每一个新行创建一个 <br>。
+  "markdown.preview.breaks": false,
+
+  // 在 Markdown 预览中双击切换到编辑器。
+  "markdown.preview.doubleClickToSwitchToEditor": true,
+
+  // 控制 Markdown 预览中使用的字体系列。
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif",
+
+  // 控制 Markdown 预览中使用的字号(以像素为单位)。
+  "markdown.preview.fontSize": 14,
+
+  // 控制 Markdown 预览中使用的行高。此数值与字号相关。
+  "markdown.preview.lineHeight": 1.6,
+
+  // 在 Markdown 预览中启用或禁用将类似 URL 的文本转换为链接。
+  "markdown.preview.linkify": true,
+
+  // 在 Markdown 预览中标记当前的编辑器选定内容。
+  "markdown.preview.markEditorSelection": true,
+
+  // 滚动 Markdown 预览时，更新其编辑器视图。
+  "markdown.preview.scrollEditorWithPreview": true,
+
+  // 滚动 Markdown 编辑器时，更新其预览视图。
+  "markdown.preview.scrollPreviewWithEditor": true,
+
+  // 设置如何在 Markdown 预览中呈现 YAML 扉页。“隐藏”会删除扉页。否则，扉页则被视为 Markdown 内容。
+  "markdown.previewFrontMatter": "hide",
+
+  // 要在 Markdown 预览中使用的 CSS 样式表的 URL 或本地路径列表。相对路径被解释为相对于资源管理器中打开的文件夹。如果没有任何打开的文件夹，则会被解释为相对于 Markdown 文件的位置。所有的 "\" 需写为 "\\"。
+  "markdown.styles": [],
+
+  // 对 Markdown 扩展启用调试日志记录。
+  "markdown.trace": "off",
+
+  // 针对 [markdown] 语言，配置替代编辑器设置。
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+
+  // markdownlint config object
+  "markdownlint.config": {
+    "MD013": false
+  },
+
+  // Array of paths for custom rules to include when linting
+  "markdownlint.customRules": [],
+
+  // Array of file names and glob expressions to ignore when linting
+  "markdownlint.ignore": [],
+
+  // Run the linter on save (onSave) or on type (onType)
+  "markdownlint.run": "onType",
+
+  // Use `*` or `_` to wrap italic text
+  "markdown.extension.italic.indicator": "*",
+
+  // Auto fix ordered list markers
+  "markdown.extension.orderedList.autoRenumber": true,
+
+  // `one`: always use `1.` as ordered list marker; `ordered`
+  "markdown.extension.orderedList.marker": "ordered",
+
+  // Auto show preview to side
+  "markdown.extension.preview.autoShowPreviewToSide": false,
+
+  // Convert image path to absolute path
+  "markdown.extension.print.absoluteImgPath": true,
+
+  // Convert images to base64 when printing to HTML
+  "markdown.extension.print.imgToBase64": false,
+
+  // Show outline view in explorer panel
+  "markdown.extension.showExplorer": false,
+
+  // Add syntax decorations
+  "markdown.extension.syntax.decorations": true,
+
+  // Only take effect when `extension.syntax.decorations` is enabled
+  "markdown.extension.syntax.plainTheme": false,
+
+  // Enable GFM table formatter
+  "markdown.extension.tableFormatter.enabled": true,
+
+  // Normalize table indentation to closest multiple of configured tabSize
+  "markdown.extension.tableFormatter.normalizeIndentation": false,
+
+  // GitHub Compatibility
+  "markdown.extension.toc.githubCompatibility": false,
+
+  // Range of levels for table of contents. Use `x..y` for level x to y
+  "markdown.extension.toc.levels": "1..6",
+
+  // Use ordered list (1. ..., 2. ...)
+  "markdown.extension.toc.orderedList": false,
+
+  // Just plain text
+  "markdown.extension.toc.plaintext": false,
+
+  // Use `-`, `*` or `+` in the table of contents (for unordered list)
+  "markdown.extension.toc.unorderedList.marker": "-",
+
+  // Auto update on save
+  "markdown.extension.toc.updateOnSave": true
+
+}, {
+
+
+  // 控制字体系列。
+  "editor.fontFamily": "Consolas, 'Courier New', monospace"
+}
