@@ -7,11 +7,12 @@
     <title>Document</title>
     <script src="js/vue1.0.js"></script>
 </head>
-<body id="demo">
-    <div v-my-directive="a++"></div>{{a}}
-    <!-- <button v-on:click="change">change</button>{{a.b.c}} -->
-    <div>哈哈哈</div>
-    <div>哈哈哈哈</div>
-    <script src="js/test17.js"></script>
+<body>
+    <div id="app">
+        <li v-for="item in items" @click=toggle(item)>
+            <span v-show="item.show">{{item.content}}</span>
+        </li>
+    </div>
+    <script src="js/test18.js"></script>
 </body>
 </html>
