@@ -10,10 +10,11 @@ var items=[
     }
 ]
 
-new Vue({
+var vm=new Vue({
     el:"#app",
     data:{
-        items:items
+        items:items,
+        dd:"this.$el"
     },
     // components:{
     //     "my-item":{
@@ -35,3 +36,13 @@ new Vue({
         }
     }
 })
+
+
+// console.log(vm.$el);
+// console.log(vm.$els);
+// console.log(vm.$root);
+// console.log(vm.$parent);
+// console.log(vm.$children);
+// console.log(vm.$refs);
+// console.log(vm.$data);
+// console.log(vm.$options);

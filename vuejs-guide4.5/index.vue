@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="js/vue1.0.js"></script>
 </head>
 <body>
-    
-    <div id="app">
-        <li v-for="item in items">{{item.text}}</li>
-
-        <p>{{dd}}</p>
-
-    </div>
-
-    <script src="js/test1.js"></script>
 </body>
 </html>
